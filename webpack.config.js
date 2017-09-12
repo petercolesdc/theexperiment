@@ -1,5 +1,6 @@
 const path = require('path')
 
+// test merge
 module.exports = {
   entry: "./src/index.js",
   output: {
