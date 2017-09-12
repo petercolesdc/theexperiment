@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+
+  },
   "dependencies": {
     "ajv": "^5.2.2",
     "babel-core": "^6.26.0",
