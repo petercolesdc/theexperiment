@@ -8,7 +8,7 @@ module.exports = {
     rules: [
       {
         test: /\.js$/,
-        include: babelIncludes,
+        include: 'src',
         loader: 'babel',
         query: {
           presets: [
