@@ -1,3 +1,5 @@
+const path = require('path')
+
 module.exports = {
   entry: "./src/index.js",
   output: {
@@ -8,7 +10,7 @@ module.exports = {
     rules: [
       {
         test: /\.js$/,
-        include: 'src',
+        include: path.resolve(__dirname, 'src'),
         loader: 'babel',
         query: {
           presets: [
